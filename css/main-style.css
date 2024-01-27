@@ -210,19 +210,19 @@ header .m-ul li a:hover {
 nav{
     overflow: auto;
     background-color: #82e8d6;
-    width: 300px;
+    width: 0px;
     position: fixed;
     box-shadow: 0px 5px 10px #5cc996;
     left: -350px;
     top: 100px;
     opacity: 0;
     z-index: -1;
-    display: none;
+    display: block;
     transition: 0.3s;
 }
 
 .side-bar:hover nav{
-    display: block;
+    width: 300px;
     left: 0px;
     opacity: 1;
     z-index: 10;
