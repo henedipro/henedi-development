@@ -149,7 +149,7 @@ header .m-ul li:hover::before{
 }
 
 header .m-ul li a{
-    color: var(--m-c);
+    color: white;
     transition: 0.3s;
 }
 
