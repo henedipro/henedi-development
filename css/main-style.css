@@ -729,7 +729,7 @@ address .line .info{
     header nav{
         display: none;
     }
-    header nav:hover{
+    .side-bar:hover nav{
         display: block;
     }
     .partners .container{
