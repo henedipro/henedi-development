@@ -727,17 +727,26 @@ address .line .info{
     header .container ul{
         display: none;
     }
+    header nav{
+        display: none;
+    }
+    header nav:hover{
+        display: block;
+    }
     .partners .container{
         padding: 10%;
     }
+    .first .box{
+        margin: 10px;
+    }
     .first .box .text{
-        padding: 0px;
+        padding: 5px;
     }
     .serv .card{
         background-color: white;
-        scale: 1.1;
+        scale: 1;
         z-index: 2;
-        margin-left: 0px;
+        margin-left: auto;
         margin-bottom: 40px;
     }
     .serv .card img{
@@ -759,7 +768,7 @@ address .line .info{
         width: inherit;
     }
     .conatct .dis span{
-        margin-right: 0px;
+        margin-right: auto;
     }
     .conatct .form ,.conatct .form form{
         width: 100%;
