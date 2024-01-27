@@ -217,11 +217,12 @@ nav{
     top: 100px;
     opacity: 0;
     z-index: -1;
-    display: block;
+    display: none;
     transition: 0.3s;
 }
 
 .side-bar:hover nav{
+    display: block;
     left: 0px;
     opacity: 1;
     z-index: 10;
