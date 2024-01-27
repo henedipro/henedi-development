@@ -217,11 +217,12 @@ nav{
     top: 100px;
     opacity: 0;
     z-index: -1;
-    display: block;
+    display: none;
     transition: 0.3s;
 }
 
 .side-bar:hover nav{
+    display: block;
     right: 0px;
     opacity: 1;
     z-index: 10;
@@ -726,12 +727,6 @@ address .line .info{
 @media (max-width: 767px) {
     header .container ul{
         display: none;
-    }
-    header nav{
-        display: none;
-    }
-    .side-bar:hover nav{
-        display: block;
     }
     .partners .container{
         padding: 10%;
